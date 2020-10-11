@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sing_backround">
+
+    <LinearLayout
+
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:src="@drawable/logoparking" />
+
+        <RelativeLayout
+            android:id="@+id/profilLy"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <include
+                layout="@layout/circle_imageview_ly"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true">
+
+            </include>
+
+            <include
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                layout="@layout/circle_addimage" >
+            </include>
+
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/profilText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:fontFamily="@font/avenir_medium"
+            android:hint="@string/Your_Name"
+            android:textColor="@android:color/white"
+            android:textColorHint="#d3d3d3"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/profilSurnameText"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/avenir_medium"
+            android:hint="@string/your_Surname"
+            android:textColor="@android:color/white"
+            android:textColorHint="#d3d3d3"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/epostaText"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/avenir_medium"
+            android:hint="@string/Your_EPosta"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="#d3d3d3"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/profilePassword"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/avenir_medium"
+            android:hint="@string/Your_Pass"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="#d3d3d3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/profilButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_backgraund"
+            android:fontFamily="@font/avenir_black"
+            android:onClick="signUp"
+            android:text="@string/Save"
+            android:textColor="#eee9e9"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hesabımVar"
+            android:layout_margin="16dp"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:fontFamily="@font/avenir_book"
+            android:onClick="backToSignIn"
+            android:text="@string/Having_an_Account"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

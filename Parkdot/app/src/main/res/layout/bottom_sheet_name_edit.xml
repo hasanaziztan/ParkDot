@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    android:id="@+id/fragment_history_menu_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:background="@drawable/sing_backround"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/edit_userName_bottomSheet"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/avenir_medium"
+            android:hint="@string/Your_Name"
+            android:textColor="@android:color/white"
+            android:textColorHint="#d3d3d3"
+            android:textSize="15sp"/>
+        <EditText
+            android:id="@+id/edit_surname_bottomSheet"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/avenir_medium"
+            android:hint="@string/your_Surname"
+            android:textColor="@android:color/white"
+            android:textColorHint="#d3d3d3"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/edit_userName_bottomSheetsaveBtn"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_backgraund"
+            android:fontFamily="@font/avenir_black"
+            android:gravity="center"
+            android:text="@string/Save"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+

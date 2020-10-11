@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_adress">Adres Yok</string>
+    <string name="Please_fill_in_all_required_fields">Lütfen gerekli alanları doldurunuz!</string>
+    <string name="Error">Hata!</string>
+    <string name="Registration_successful">İşlem başarılı!</string>
+    <string name="added">Eklendi!</string>
+    <string name="New_place_ok">Yeni yer</string>
+    <string name="log_out">Çıkış</string>
+    <string name="Please_enter_your_reqistered_email">Lütfen Kayıtlı E-posta Adresinizi Girin</string>
+    <string name="Password_reset_email_sent">Şifre sıfırlama e-postası gönderildi</string>
+    <string name="Error_in_sending_password_reset_email">Parola sıfırlama e-postası gönderilirken hata oluştu</string>
+    <string name="Login_successful">Giriş başarılı!</string>
+    <string name="Your_Name">İsminizi Giriniz</string>
+    <string name="your_Surname">Soyadınızı Giriniz</string>
+    <string name="Your_EPosta">E-posta Adresinizi Giriniz</string>
+    <string name="Your_Pass">Şifrenizi Giriniz</string>
+    <string name="Save">Kaydet</string>
+    <string name="Having_an_Account">Zaten Hesabım Var</string>
+    <string name="Please_wait">Lütfen Bekleyiniz...</string>
+    <string name="Ressart_Password">Yeni Şifre</string>
+    <string name="SIGN_IN">Giriş</string>
+    <string name="Forgot_Password">Şifremi Unuttum!</string>
+    <string name="Sign_Up">Kayıt Ol</string>
+    <string name="quit">Çıkmak İstediğine\nEmin Misin? </string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="Park_Name">Park İsmini Giriniz</string>
+    <string name="New_Park">Yeni Park</string>
+    <string name="Upload_Image">Resimi Yüklemek İstediğinize\nEmin Misiniz?</string>
+    <string name="Empty">Listeniz Boş.\nEklemek için + İşaretine Tıklayınız</string>
+    <string name="delete_park">Silmek istediğinize\nemin misiniz ?</string>
+</resources>

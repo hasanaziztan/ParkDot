@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="5dp">
+  <TextView
+      android:id="@+id/parkNameHeader"
+      android:textSize="24sp"
+      android:text="@string/New_Park"
+      android:fontFamily="@font/avenir_black"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/customText"
+        android:maxLines="1"
+        android:textColorHint="#d3d3d3"
+        android:textColor="#b5b5b5"
+        android:fontFamily="@font/avenir_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:hint="@string/Park_Name" />
+
+    <Button
+        android:id="@+id/customButton"
+
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_backgraund"
+        android:fontFamily="@font/avenir_black"
+        android:text="@string/Save"
+        android:textColor="#ffffff" />
+</LinearLayout>

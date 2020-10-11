@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">parkdot</string>
+    <string name="title_activity_hastagram_map" translatable="false">Map</string>
+    <string name="no_adress">No address</string>
+    <string name="Please_fill_in_all_required_fields">Please fill in all required fields!</string>
+    <string name="Error">Error!</string>
+    <string name="Registration_successful">Registration successful!</string>
+    <string name="added">Added!</string>
+    <string name="New_place_ok">New Place OK</string>
+    <string name="log_out">Log out</string>
+    <string name="Please_enter_your_reqistered_email">Please enter your reqistered email!</string>
+    <string name="Password_reset_email_sent">Password reset email sent!</string>
+    <string name="Error_in_sending_password_reset_email">Error in sending password reset email</string>
+    <string name="Login_successful">Login successful!</string>
+    <string name="Your_Name">Enter Your Name</string>
+    <string name="your_Surname">Enter Your Surname</string>
+    <string name="Your_EPosta">Enter Your E-Posta</string>
+    <string name="Your_Pass">Enter Your Password</string>
+    <string name="Save">Save</string>
+    <string name="Having_an_Account">Already Having an Account</string>
+    <string name="Please_wait">Please Wait...</string>
+    <string name="Ressart_Password">Restart Password!</string>
+    <string name="SIGN_IN">SIGN IN</string>
+    <string name="Forgot_Password">Forgot Password!</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="quit">Are You Sure\nWant to Quit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Park_Name">Enter Park Name</string>
+    <string name="New_Park">New Park</string>
+    <string name="Upload_Image">Are you sure you want to\nupload the image?</string>
+    <string name="Empty">Your list is empty.\nClick + to add</string>
+    <string name="delete_park">Are you sure you want\nto delete</string>
+</resources>
